@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipotrafo">
+        <item>"SELECCIONE"</item>
+        <item>POSTE</item>
+        <item>INTERIOR</item>
+        <item>PEDESTAL</item>
+        <item>PATIO</item>
+    </string-array>
+</resources>

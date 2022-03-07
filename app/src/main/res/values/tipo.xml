@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipo">
+        <item value="SELECCIONE">"SELECCIONE"</item>
+        <item value="Trenzada">TRENZADA</item>
+        <item value="Abierta">ABIERTA</item>
+    </string-array>
+</resources>

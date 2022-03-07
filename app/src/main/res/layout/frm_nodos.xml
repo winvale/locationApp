@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frm_nodos">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="33sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tposte"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Código Poste"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/taltura"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Altura(m)"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tmaterial"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Material"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/codPost"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:hint="CODIGO POSTE"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:visibility="visible"></TextView>
+
+        <Spinner
+            android:id="@+id/alturanodo"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginRight="30dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/altura"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+        <Spinner
+            android:id="@+id/material"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/material"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="530sp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="-50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="Código Trafo"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/codigoTrafo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="TMOC0007"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_marginLeft="65dp"
+            android:text="Registro de Poste"
+            android:textColor="@color/drakgray"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="85dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="-115dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="151dp"
+        android:src="@drawable/posteelectico" />
+
+
+    <TextView
+        android:id="@+id/operario"
+        android:layout_width="249dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:gravity="center"
+        android:text="Operario"
+        android:textColor="@color/drakgray"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/btnpatras2"
+        android:layout_width="119dp"
+        android:layout_height="99dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="98dp"
+        android:layout_marginLeft="30sp"
+        android:background="@drawable/botonatras"/>
+
+    <Button
+        android:id="@+id/btnsiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:text="Siguiente"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp">
+
+        <TextView
+            android:id="@+id/tretenidas"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="# Retenidas"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tantiguedad"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Antigüedad(a.)"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tpropiedad"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Propiedad"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp">
+
+        <EditText
+            android:id="@+id/retenida"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:maxLength="1"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/antiguedad"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:maxLength="4"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/propiedad"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-14dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/propiedad"
+            android:padding="10sp"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="322dp">
+
+        <TextView
+            android:id="@+id/ttipo1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:text="#1- Tipo de Estructura "
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/testructura1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text=" # Estructura "
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp">
+
+        <Spinner
+            android:id="@+id/tipo2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tipo"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"></Spinner>
+
+        <Spinner
+            android:id="@+id/estuct2"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp">
+
+        <TextView
+            android:id="@+id/ttipo2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:text="#2- Tipo de Estructura "
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/testructura2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="# Estructura "
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="558dp">
+
+        <Spinner
+            android:id="@+id/tipo3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tipo"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"></Spinner>
+
+        <Spinner
+            android:id="@+id/estuct3"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="328dp">
+
+        <TextView
+            android:id="@+id/ttipo3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:text="#3- Tipo de Estructura "
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/testructura3"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="# Estructura "
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp">
+
+        <Spinner
+            android:id="@+id/tipo4"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tipo"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"></Spinner>
+
+        <Spinner
+            android:id="@+id/estuct4"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="231dp">
+
+        <TextView
+            android:id="@+id/ttipo"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:text="#4- Tipo de Estructura "
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/testructura"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="# Estructura "
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="362dp">
+
+        <Spinner
+            android:id="@+id/tipo1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tipo"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"></Spinner>
+
+        <Spinner
+            android:id="@+id/estuct1"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="705dp"
+        android:layout_marginLeft="180dp">
+
+        <TextView
+            android:id="@+id/textLongluma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Longitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/txtLonp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="735dp"
+        android:layout_marginLeft="180dp">
+
+        <TextView
+            android:id="@+id/textLatilum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Latitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/textLatp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="765dp"
+        android:layout_marginLeft="180dp">
+
+        <TextView
+            android:id="@+id/textAltilum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Altitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/textAltip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

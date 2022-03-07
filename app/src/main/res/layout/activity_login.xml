@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".loginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/logo2" />
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bienvenido"
+            android:textColor="@color/drakgray"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="19dp"
+            android:text="Sistema Integrado de Registro de Redes"
+            android:textColor="@color/drakgray"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/prompt_email"
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/prompt_password"
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+
+       <LinearLayout
+           android:id="@+id/botones"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttoningresar"
+                style="?android:textAppearanceSmall"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent"
+                android:text="@string/action_sign_in"
+                android:textStyle="bold" />
+
+           <Button
+               android:id="@+id/buttonsalir"
+               style="?android:textAppearanceSmall"
+               android:layout_width="150dp"
+               android:layout_margin="10dp"
+               android:layout_height="match_parent"
+               android:background="@color/colorAccent"
+               android:text="SALIR"
+               android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <!--<TextView android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp"
+        android:text="Eres nuevo aquí? Regístrate"
+        android:gravity="center"
+        android:textSize="19sp"/>
+-->
+</LinearLayout>

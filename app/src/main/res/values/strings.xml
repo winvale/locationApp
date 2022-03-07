@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Redylab SIRR</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">USUARIO</string>
+    <string name="prompt_password">CONTRASEÑA</string>
+    <string name="action_sign_in">INICIAR SESIÓN</string>
+    <string name="action_salir">SALIR</string>
+    <string name="action_sign_in_short">INICIAR SESION</string>
+    <string name="error_invalid_email">ESTE USUARIO ES INVALIDO</string>
+    <string name="error_invalid_password">ESTA CONTRASEÑA ES DEMASIADO CORTA</string>
+    <string name="error_incorrect_password">ESTA CONTRASEÑA ES INCORRECTA</string>
+    <string name="error_field_required">ESTE CAMPO ES OBLIGATORIO</string>
+    <string name="permission_rationale">"SE NECESITAN PERMISOS DE CONTACTO."</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Menu</string>
+    <string name="seleccione_un_barrio">Seleccione un Barrio o Vda:</string>
+    <string name="seleccione_un_Sector">Seleccione un Sector:</string>
+    <string name="seleccione_una_Observación">Seleccione una Observación:</string>
+    <string name="action_sync">Sincronizar</string>
+    <string name="account_type">com.redylab.redylabsirr.account</string>
+    <string name="provider_authority">com.redylab.redylabsirr</string>
+
+</resources>

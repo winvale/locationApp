@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="altura">
+        <item value="SELECCIONE">"SELECCIONE"</item>
+        <item value="8">8</item>
+        <item value="10">10</item>
+        <item value="12">12</item>
+        <item value="14">14</item>
+    </string-array>
+</resources>

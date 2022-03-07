@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barrios_mocoa">
+    <item>"SELECCIONE"</item>
+        <item>17 DE JULIO</item>
+        <item>ALTO CANAVERAL</item>
+        <item>AV COLOMBIA</item>
+        <item>BELLAVISTA</item>
+        <item>BERLIN</item>
+        <item>BOLIVAR</item>
+        <item>CALIMA</item>
+        <item>CENTRAL</item>
+        <item>CENTRO</item>
+        <item>CENTRO PEPINO</item>
+        <item>CENTRO TEBAIDA</item>
+        <item>CERROS DE MOCOA</item>
+        <item>CINCO DE ENERO</item>
+        <item>CINCO DE SEPTIEMBRE</item>
+        <item>CIUDAD SOLAR</item>
+        <item>COMERCIO</item>
+        <item>CONDOMINIO NORTE</item>
+        <item>DORADO</item>
+        <item>EL CARMEN</item>
+        <item>EL DIVISO</item>
+        <item>EL LIBERTADOR</item>
+        <item>EL PALMAR</item>
+        <item>EL PENON</item>
+        <item>EL PROGRESO</item>
+        <item>HUASIPANGA</item>
+        <item>JARDIN - OLIMPICO</item>
+        <item>JARDINES DE BABILONIA</item>
+        <item>JORDANCITO</item>
+        <item>JORGE ELIECER GAITAN</item>
+        <item>JOSE HOMERO</item>
+        <item>JOSE MARIA HERNANDEZ</item>
+        <item>KENNEDY</item>
+        <item>LA ESMERALDA</item>
+        <item>LA FLORESTA</item>
+        <item>LA INDEPENDENCIA</item>
+        <item>LA PENA</item>
+        <item>LA PLATARINA</item>
+        <item>LA RESERVA</item>
+        <item>LA UNION</item>
+        <item>LAS ACACIAS</item>
+        <item>LAS AMERICAS</item>
+        <item>LAS PALMERAS</item>
+        <item>LAS VEGAS</item>
+        <item>LOS ALAMOS</item>
+        <item>LOS CHIPAROS</item>
+        <item>LOS LAURELES</item>
+        <item>LOS PINOS</item>
+        <item>LOS PRADOS</item>
+        <item>LOS SAUCES</item>
+        <item>LUIS CARLOS GALAN</item>
+        <item>MADRIGAL</item>
+        <item>MIRAFLORES</item>
+        <item>NARANJITO</item>
+        <item>NORMANDIA</item>
+        <item>NUEVA FLORESTA</item>
+        <item>NUEVO HORIZONTE</item>
+        <item>OBRERO</item>
+        <item>PABLO VI</item>
+        <item>PALERMO SUR</item>
+        <item>PARAISO NORTE</item>
+        <item>PEPINO</item>
+        <item>PINAYACO</item>
+        <item>PRADO NORTE</item>
+        <item>PRIMERO DE ENERO</item>
+        <item>PUERTAS DEL SOL</item>
+        <item>PUERTO NUEVO</item>
+        <item>QUINCE DE MAYO</item>
+        <item>QUINTA PAREDES</item>
+        <item>RESTREPO</item>
+        <item>RUMIPAMBA</item>
+        <item>SAN AGUSTIN</item>
+        <item>SAN ANDRES</item>
+        <item>SAN FERNANDO</item>
+        <item>SAN FRANCISCO</item>
+        <item>SAN MIGUEL</item>
+        <item>SEIS DE ENERO</item>
+        <item>SINAI</item>
+        <item>SUIZA</item>
+        <item>URB ALTOS DE SAN JOSE</item>
+        <item>VDA AIRE LIBRE</item>
+        <item>VDA ALTO AFAN</item>
+        <item>VDA ANAMU</item>
+        <item>VDA BAJO AFAN</item>
+        <item>VDA BUENOS AIRES</item>
+        <item>VDA CALIYACO</item>
+        <item>VDA CAMPUCANA</item>
+        <item>VDA CONDAGUA</item>
+        <item>VDA EL LAGARTO</item>
+        <item>VDA EL MEZON</item>
+        <item>VDA EL MIRADOR</item>
+        <item>VDA EL PARAISO</item>
+        <item>VDA ESMERALDA SARDINAS</item>
+        <item>VDA FRONTERIZA EL PAISAJE</item>
+        <item>VDA GUADUALES</item>
+        <item>VDA LA EME</item>
+        <item>VDA LA PASERA</item>
+        <item>VDA LAS MESAS</item>
+        <item>VDA LAS PALMERAS</item>
+        <item>VDA LAS PLANADAS</item>
+        <item>VDA LAS TOLDAS</item>
+        <item>VDA LIBANO</item>
+        <item>VDA LOS ANDES</item>
+        <item>VDA MEDIO AFAN</item>
+        <item>VDA MONCLART</item>
+        <item>VDA PUEBLO VIEJO</item>
+        <item>VDA RESGUARDO SAN LUIS DEL PALMAR</item>
+        <item>VDA RUMIYACO</item>
+        <item>VDA SAN ANTONIO</item>
+        <item>VDA SAN CARLOS</item>
+        <item>VDA SAN JOSE DEL PEPINO</item>
+        <item>VDA SAN LUIS DE CHONTAYACO</item>
+        <item>VDA SAN PEDRO GUADALUPE</item>
+        <item>VDA TICUANAYOY</item>
+        <item>VDA VILLA GLORIA</item>
+        <item>VDA VILLA MOSQUERA</item>
+        <item>VDA VILLA NUEVA</item>
+        <item>VENECIA</item>
+        <item>VILLA CAIMARON</item>
+        <item>VILLA COLOMBIA</item>
+        <item>VILLA DANIELA</item>
+        <item>VILLA DE LEYVA</item>
+        <item>VILLA DEL NORTE</item>
+        <item>VILLA DEL RIO</item>
+        <item>VILLA DIANA</item>
+        <item>VILLA DOCENTE</item>
+        <item>VILLA NATALIA</item>
+        <item>VILLA ROSA</item>
+        <item>VILLA ROSA III</item>
+        <item>VILLA SOFIA</item>
+        <item>OTRO</item>
+    </string-array>
+
+    <string-array name="barrios_guzman">
+        <item>AGUAS NEGRAS</item>
+        <item>ALPAMANGA</item>
+        <item>ALTO ESMERALDA</item>
+        <item>BUENA ESPERANZA</item>
+        <item>BUENOS AIRES DEL MANDUR</item>
+        <item>CABILDO AGUADITAS</item>
+        <item>CENTRO</item>
+        <item>CENTRO SANTA LUCIA</item>
+        <item>CHACON</item>
+        <item>EDISON MORA</item>
+        <item>EL BOMBON</item>
+        <item>EL CASTILLO</item>
+        <item>EL CEDRO</item>
+        <item>EL COMINO</item>
+        <item>EL DESCANSO</item>
+        <item>EL JAUNO</item>
+        <item>EL MANGO</item>
+        <item>EL MUELLE</item>
+        <item>EL POBLADO</item>
+        <item>EL PROGRESO SANTA LUCIA</item>
+        <item>GALILEA</item>
+        <item>GUAYABAL</item>
+        <item>JAIRO DE JESUS CASANOVA</item>
+        <item>JARDIN</item>
+        <item>JARDIN II ETAPA</item>
+        <item>KENNEDY</item>
+        <item>LA ISLA</item>
+        <item>LAS AMERICAS</item>
+        <item>LAS PERLAS</item>
+        <item>LIBERTADOR</item>
+        <item>LOS PRADOS</item>
+        <item>LOS SETENTA</item>
+        <item>MEDIO MANDUR</item>
+        <item>NUEVA INDEPENDENCIA</item>
+        <item>PACAYACO</item>
+        <item>PERNAMBUCO</item>
+        <item>PORTAL AMAZONICO</item>
+        <item>PORVENIR</item>
+        <item>PUERTO ROSARIO</item>
+        <item>SAN CAYETANO</item>
+        <item>SAN JOSE DE LA MONTANA</item>
+        <item>SAN LUIS</item>
+        <item>SANTA ELENA</item>
+        <item>SIMON BOLIVAR</item>
+        <item>TRES ESQUINAS</item>
+        <item>TRIUNFO</item>
+        <item>VDA ALTILLO</item>
+        <item>VDA LA ESTRELLA</item>
+        <item>VDA LA PATRIA</item>
+        <item>VDA LAS VEGAS</item>
+        <item>VDA LOS CORRALES</item>
+        <item>VDA NARANJAL</item>
+        <item>VILLA CATALINA</item>
+        <item>VILLA DEL CASTILLO</item>
+        <item>VILLA DEL RIO</item>
+        <item>OTRO</item>
+    </string-array>
+    <string-array name="barrios_piamonte">
+        <item>BELLA VISTA</item>
+        <item>CENTRO</item>
+        <item>EL JAUNO</item>
+        <item>EL PROGRESO</item>
+        <item>LAS PALMERAS</item>
+        <item>LOS FUNDADORES</item>
+        <item>LOS NOGALES</item>
+        <item>LOS PRADOS</item>
+        <item>MIRAFLOR</item>
+        <item>NABUENO</item>
+        <item>SEVILLA</item>
+        <item>VDA CAMPO ALEGRE</item>
+        <item>VDA EL JARDIN</item>
+        <item>VDA GUAJIRA</item>
+        <item>VDA LA FLORESTA</item>
+        <item>VDA LA FLORIDA</item>
+        <item>VDA LA VEGA</item>
+        <item>VDA NAPOLES</item>
+        <item>VDA PUERTO BELLO</item>
+        <item>VDA SAN ISIDRO</item>
+        <item>VDA SAN JORGE</item>
+        <item>VDA SAN PABLO</item>
+        <item>VDA SANTA RITA</item>
+        <item>VILLA LOS PRADOS</item>
+        <item>OTRO</item>
+    </string-array>
+    <string-array name="barrios_orito">
+        <item>12 DE OCTUBRE</item>
+        <item>28 DE MAYO</item>
+        <item>ALAMEDA</item>
+        <item>BETANIA</item>
+        <item>CHAPINERO</item>
+        <item>CIUDADELA HELICONIA</item>
+        <item>COLOMBIA</item>
+        <item>COLOMBIA II</item>
+        <item>COMUNEROS</item>
+        <item>CRISTO REY</item>
+        <item>EL SABALO</item>
+        <item>GALERIA</item>
+        <item>JARDIN</item>
+        <item>JARDIN II</item>
+        <item>LA ESPERANZA</item>
+        <item>LA FLORESTA</item>
+        <item>LA PAZ</item>
+        <item>LA PISCINA</item>
+        <item>LA PISCINA II</item>
+        <item>LA PRADERA</item>
+        <item>LA UNION</item>
+        <item>LAS AMERICAS</item>
+        <item>LAS BRISAS</item>
+        <item>LAS COLINAS</item>
+        <item>LAS GALIAS</item>
+        <item>LAS PALMAS</item>
+        <item>LAS ROSAS</item>
+        <item>LAS VEGAS</item>
+        <item>LIBERTAD</item>
+        <item>LIBERTAD II</item>
+        <item>LOS ALPES</item>
+        <item>LOS ANGELES</item>
+        <item>LOS LAURELES</item>
+        <item>LOS OBREROS</item>
+        <item>LOS PINOS</item>
+        <item>LOS POMOS</item>
+        <item>MARCO FIDEL SUAREZ</item>
+        <item>NUEVO MUNDO</item>
+        <item>NUEVO ORITO</item>
+        <item>PORVENIR</item>
+        <item>PUERTAS DEL SOL</item>
+        <item>RES. INDIGENAS LOS GUADUALES</item>
+        <item>SABALITO</item>
+        <item>SAN CARLOS</item>
+        <item>SAN MARTIN</item>
+        <item>SIETE DE AGOSTO</item>
+        <item>SIMON BOLIVAR</item>
+        <item>SOFIA REAL</item>
+        <item>URB MONTEROS</item>
+        <item>VDA ACACIAS</item>
+        <item>VDA ALTAMIRA</item>
+        <item>VDA ALTO MIRADOR</item>
+        <item>VDA BAJO MIRADOR</item>
+        <item>VDA BUENOS AIRES</item>
+        <item>VDA CAMPO BELLO</item>
+        <item>VDA EL CALDERO</item>
+        <item>VDA EL LIBANO</item>
+        <item>VDA EL PARAISO</item>
+        <item>VDA FLORIDA</item>
+        <item>VDA GUAYABAL</item>
+        <item>VDA MALVINAS</item>
+        <item>VDA MONSERRATE</item>
+        <item>VDA NARANJITO</item>
+        <item>VDA PLAYA NUEVA</item>
+        <item>VDA QUEBRADON</item>
+        <item>VDA SAN ANDRES</item>
+        <item>VDA SAN JUAN DE LAS PALMERAS</item>
+        <item>VDA SANTA ROSA DEL 35</item>
+        <item>VDA SILVANIA</item>
+        <item>VDA VERSALLES</item>
+        <item>VDA YARUMO</item>
+        <item>VERGEL</item>
+        <item>VILLA CAROLINA</item>
+        <item>VILLA DEL CASTILLO</item>
+        <item>VILLA FLOR</item>
+        <item>VILLADOCENTE</item>
+        <item>OTRO</item>
+    </string-array>
+    <string-array name="barrrios_villa">
+        <item>29 DE MAYO</item>
+        <item>BRISAS DEL RIO MOCOA</item>
+        <item>CAFERNAUM</item>
+        <item>CANAAN</item>
+        <item>CENTRO</item>
+        <item>CRISTO REY</item>
+        <item>DORADO</item>
+        <item>EDEN</item>
+        <item>FATIMA</item>
+        <item>GALILEA</item>
+        <item>INDUSTRIAL</item>
+        <item>JUAN PABLO II</item>
+        <item>LA ESMERALDA</item>
+        <item>LOS CHIPAROS</item>
+        <item>LOS DIAMANTES</item>
+        <item>LOS PASTOS</item>
+        <item>LOS POMOS</item>
+        <item>LOS PRADOS</item>
+        <item>LOS ROSALES</item>
+        <item>MACEDONIA</item>
+        <item>MINUTO DE DIOS</item>
+        <item>MIRAFLORES</item>
+        <item>MONTERREY</item>
+        <item>NUEVO HORIZONTE</item>
+        <item>NUEVO MILENIO</item>
+        <item>OBRERO</item>
+        <item>PALERMO II</item>
+        <item>PROGRESO</item>
+        <item>ROSADELA</item>
+        <item>SAN DIEGO</item>
+        <item>SAN LUIS</item>
+        <item>URB LAS VILLAS</item>
+        <item>URB SAN CARLOS</item>
+        <item>URBANIZACION LOS ALAMOS</item>
+        <item>URCUSIQUE</item>
+        <item>VDA ALBANIA</item>
+        <item>VDA ALEMANIA</item>
+        <item>VDA ALTO MECAYA</item>
+        <item>VDA ALTO SINAI</item>
+        <item>VDA CAFELINA</item>
+        <item>VDA CAMPOALEGRE</item>
+        <item>VDA CANANGUCHO</item>
+        <item>VDA CANDELARIA</item>
+        <item>VDA CHAMPAGNAT</item>
+        <item>VDA EL CARMEN</item>
+        <item>VDA EL ESLABON</item>
+        <item>VDA GAITANA</item>
+        <item>VDA ISLANDIA</item>
+        <item>VDA KOFANIA</item>
+        <item>VDA LA CABANA</item>
+        <item>VDA LA CASTELLANA</item>
+        <item>VDA LA ESPERANZA</item>
+        <item>VDA LA LETICIA</item>
+        <item>VDA LA MARIPOSA</item>
+        <item>VDA LA PALANCA</item>
+        <item>VDA LA PALESTINA</item>
+        <item>VDA LA PAZ</item>
+        <item>VDA NARANJITO</item>
+        <item>VDA OROYACO</item>
+        <item>VDA PORVENIR</item>
+        <item>VDA RIO BLANCO</item>
+        <item>VDA SAN FIDEL</item>
+        <item>VDA SAN ISIDRO</item>
+        <item>VDA SAN JOSE DEL GUINEO</item>
+        <item>VDA SAN LUIS DE CHONTAYACO</item>
+        <item>VDA SAN VICENTE DEL PALMAR</item>
+        <item>VDA SANTA JULIANA</item>
+        <item>VDA SANTA ROSA DE JUANAMBU</item>
+        <item>VDA SANTA TERESA</item>
+        <item>VDA SIMON BOLIVAR</item>
+        <item>VDA SINAI</item>
+        <item>VDA UCHUPAYACO</item>
+        <item>VDA VILLA HERMOSA</item>
+        <item>VDA VILLA RICA</item>
+        <item>VDA VILLA SANTA ANA</item>
+        <item>VILLA AMAZONICA</item>
+        <item>VILLA DEL PRADO</item>
+        <item>VILLA DEL RIO</item>
+        <item>VILLA DEL SOL</item>
+        <item>VILLA MARIA</item>
+        <item>VILLA MONICA</item>
+        <item>VILLA PAZ</item>
+        <item>12 DE OCTUBRE</item>
+        <item>17 DE JULIO</item>
+        <item>28 DE MAYO</item>
+        <item>ALTO CANAVERAL</item>
+        <item>AV COLOMBIA</item>
+        <item>BETANIA</item>
+        <item>BOLIVAR</item>
+        <item>CAFERNAUM</item>
+        <item>CANAAN</item>
+        <item>CENTRAL</item>
+        <item>CENTRO</item>
+        <item>CENTRO SANTA LUCIA</item>
+        <item>CERROS DE MOCOA</item>
+        <item>CHAPINERO</item>
+        <item>COLOMBIA</item>
+        <item>COMUNEROS</item>
+        <item>CONDOMINIO NORTE</item>
+        <item>CRISTO REY</item>
+        <item>EDISON MORA</item>
+        <item>EL BOMBON</item>
+        <item>EL CARMEN</item>
+        <item>EL DIVISO</item>
+        <item>EL JAUNO</item>
+        <item>EL LIBERTADOR</item>
+        <item>EL PALMAR</item>
+        <item>EL PROGRESO</item>
+        <item>EL SABALO</item>
+        <item>FATIMA</item>
+        <item>GALERIA</item>
+        <item>GALILEA</item>
+        <item>HUASIPANGA</item>
+        <item>INDUSTRIAL</item>
+        <item>JAIRO DE JESUS CASANOVA</item>
+        <item>JARDIN</item>
+        <item>JARDIN - OLIMPICO</item>
+        <item>JARDIN II</item>
+        <item>JORDANCITO</item>
+        <item>JORGE ELIECER GAITAN</item>
+        <item>JOSE HOMERO</item>
+        <item>KENNEDY</item>
+        <item>LA ESMERALDA</item>
+        <item>LA ESPERANZA</item>
+        <item>LA FLORESTA</item>
+        <item>LA INDEPENDENCIA</item>
+        <item>LA ISLA</item>
+        <item>LA PAZ</item>
+        <item>LA PENA</item>
+        <item>LA PISCINA II</item>
+        <item>LA PRADERA</item>
+        <item>LA RESERVA</item>
+        <item>LA UNION</item>
+        <item>LAS ACACIAS</item>
+        <item>LAS COLINAS</item>
+        <item>LAS GALIAS</item>
+        <item>LAS PALMAS</item>
+        <item>LAS PALMERAS</item>
+        <item>LIBERTADOR</item>
+        <item>LOS ALPES</item>
+        <item>LOS ANGELES</item>
+        <item>LOS CHIPAROS</item>
+        <item>LOS DIAMANTES</item>
+        <item>LOS FUNDADORES</item>
+        <item>LOS LAURELES</item>
+        <item>LOS PINOS</item>
+        <item>LOS POMOS</item>
+        <item>LOS PRADOS</item>
+        <item>LOS ROSALES</item>
+        <item>LOS SAUCES</item>
+        <item>MARCO FIDEL SUAREZ</item>
+        <item>MINUTO DE DIOS</item>
+        <item>MIRAFLOR</item>
+        <item>MIRAFLORES</item>
+        <item>NARANJITO</item>
+        <item>NUEVA FLORESTA</item>
+        <item>NUEVO HORIZONTE</item>
+        <item>NUEVO ORITO</item>
+        <item>OBRERO</item>
+        <item>PABLO VI</item>
+        <item>PEPINO</item>
+        <item>PRADO NORTE</item>
+        <item>PRIMERO DE ENERO</item>
+        <item>PROGRESO</item>
+        <item>PUERTO GUZMAN</item>
+        <item>PUERTO LIMON</item>
+        <item>PUERTO ROSARIO</item>
+        <item>RESTREPO</item>
+        <item>ROSADELA</item>
+        <item>SABALITO</item>
+        <item>SAN AGUSTIN</item>
+        <item>SAN CARLOS</item>
+        <item>SAN DIEGO</item>
+        <item>SAN FERNANDO</item>
+        <item>SAN FRANCISCO</item>
+        <item>SAN LUIS</item>
+        <item>SAN MARTIN</item>
+        <item>SAN MIGUEL</item>
+        <item>SIMON BOLIVAR</item>
+        <item>SINAI</item>
+        <item>URB ALTOS DE SAN JOSE</item>
+        <item>URB LAS VILLAS</item>
+        <item>URBANIZACION LOS ALAMOS</item>
+        <item>URCUSIQUE</item>
+        <item>VDA ALBANIA</item>
+        <item>VDA ALTAMIRA</item>
+        <item>VDA ALTO AFAN</item>
+        <item>VDA ALTO MIRADOR</item>
+        <item>VDA BAJO MIRADOR</item>
+        <item>VDA BUENOS AIRES</item>
+        <item>VDA CAMPUCANA</item>
+        <item>VDA EL ESLABON</item>
+        <item>VDA EL LIBANO</item>
+        <item>VDA EL MIRADOR</item>
+        <item>VDA EL PARAISO</item>
+        <item>VDA FLORIDA</item>
+        <item>VDA GUADUALES</item>
+        <item>VDA GUAYABAL</item>
+        <item>VDA LA PASERA</item>
+        <item>VDA LAS PLANADAS</item>
+        <item>VDA LAS VEGAS</item>
+        <item>VDA MONSERRATE</item>
+        <item>VDA NARANJITO</item>
+        <item>VDA RUMIYACO</item>
+        <item>VDA SAN ANDRES</item>
+        <item>VDA SAN ANTONIO</item>
+        <item>VDA SAN CARLOS</item>
+        <item>VDA SAN FIDEL</item>
+        <item>VDA SAN ISIDRO</item>
+        <item>VDA SAN JOSE DEL GUINEO</item>
+        <item>VDA SAN JUAN DE LAS PALMERAS</item>
+        <item>VDA SAN LUIS DE CHONTAYACO</item>
+        <item>VDA SANTA JULIANA</item>
+        <item>VDA TICUANAYOY</item>
+        <item>VDA UCHUPAYACO</item>
+        <item>VDA YARUMO</item>
+        <item>VERGEL</item>
+        <item>VILLA AMAZONICA</item>
+        <item>VILLA CAROLINA</item>
+        <item>VILLA DEL NORTE</item>
+        <item>VILLA DEL RIO</item>
+        <item>VILLA DIANA</item>
+        <item>VILLA FLOR</item>
+        <item>VILLA MONICA</item>
+        <item>VILLA ROSA</item>
+        <item>VILLA ROSA II</item>
+        <item>VILLA ROSA III</item>
+        <item>OTRO</item>
+    </string-array>
+</resources>

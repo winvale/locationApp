@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tpTrafombt">
+        <item>"SELECCIONE"</item>
+        <item>MONOFÁSICO FASE RS</item>
+        <item>MONOFÁSICO FASE ST</item>
+        <item>MONOFÁSICO FASE TR</item>
+        <item>TRIFÁSICO</item>
+    </string-array>
+</resources>

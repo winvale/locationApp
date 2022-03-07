@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipotrenzada">
+        <item value="SELECCIONE">"SELECCIONE"</item>
+        <item value="320">320</item>
+        <item value="321">321</item>
+        <item value="322">322</item>
+        <item value="324">324</item>
+        <item value="327">327</item>
+        <item value="334">334</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hilos">
+        <item value="SELECC">"SELECC"</item>
+        <item value="2">2</item>
+        <item value="3">3</item>
+        <item value="4">4</item>
+        <item value="5">5</item>
+    </string-array>
+
+    <string-array name="cal_acometida">
+        <item value="SELECCIONE">"SELECCIONE"</item>
+        <item value="1/0">1/0</item>
+        <item value="2/0">2/0</item>
+        <item value="2">2</item>
+        <item value="4">4</item>
+        <item value="6">6</item>
+        <item value="8">8</item>
+        <item value="10">10</item>
+        <item value="12">12</item>
+
+    </string-array>
+
+    <string-array name="cal_poste">
+        <item value="SELECC">"SELECC"</item>
+        <item value="0">0</item>
+        <item value="8">8</item>
+        <item value="6">6</item>
+        <item value="4">4</item>
+        <item value="2">2</item>
+        <item value="1/0">1/0</item>
+        <item value="2/0">2/0</item>
+    </string-array>
+</resources>

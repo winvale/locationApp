@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/trafo" android:title="Agregar Transformador" android:icon="@drawable/ic_transformer" />
+        <item android:id="@+id/poste" android:title=" Agregar Poste" android:icon="@drawable/ic_electric_pole"/>
+        <item android:id="@+id/acometida" android:title="Agregar Acometida" android:icon="@drawable/ic_house"/>
+        <item android:id="@+id/sincronizar" android:title="Sincronizar Datos" android:icon="@drawable/ic_sincronizacion"/>
+        <item android:id="@+id/usuarios" android:title="Registro de Usuarios" android:icon="@drawable/ic_management"/>
+        <item android:id="@+id/salir" android:title="Salir" android:icon="@drawable/ic_logout"/>
+    </group>
+
+
+</menu>

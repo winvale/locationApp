@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frm_nodos">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp">
+
+        <TextView
+            android:id="@+id/tcalibres"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="C A L I B R E S "
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+    <com.redylab.redylabsirr.MultiSelectionSpinner
+        android:id="@+id/obsnodo"
+        android:layout_width="554dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="750dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/observa_trafo"
+        android:layout_width="558dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/obsnodo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-750dp"
+        android:background="@color/colorPrimary"
+        android:text="Observación"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/pst1"
+        android:layout_width="85dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/posteelectico" />
+    <ImageView
+        android:id="@+id/pst2"
+        android:layout_width="85dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="172dp"
+        android:src="@drawable/posteelectico" />
+    <ImageView
+        android:id="@+id/pst3"
+        android:layout_width="85dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="194dp"
+        android:src="@drawable/posteelectico" />
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="33sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="375dp"
+        android:layout_marginStart="375dp"
+        android:layout_marginTop="107dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tposte"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Código Poste"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="375dp"
+        android:layout_marginStart="375dp"
+        android:layout_marginTop="145dp">
+
+
+
+        <TextView
+            android:id="@+id/codPost"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center_horizontal"
+            android:hint="CODIGO POSTE"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="530sp"
+        android:layout_height="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="Código Trafo"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/codigoTrafo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="TMOC0007"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Conexión entre Postes"
+            android:textColor="@color/drakgray"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/operario"
+        android:layout_width="249dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Operario"
+        android:textColor="@color/drakgray"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGuardarnodo"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:text="GUARDAR"
+        android:textColor="@color/white"
+        android:textSize="25sp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="269dp">
+
+        <TextView
+            android:id="@+id/tconexion1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Conx 1"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibrefase1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Fase"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreneutro1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Neutro"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreap1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Alpu"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/thilo1"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Secuencia"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="304dp">
+
+        <EditText
+            android:id="@+id/conexion1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/calibrefase1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibreneutro1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibrealpu1"
+            android:layout_width="92dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/ch_faserp1"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="2dp"
+            android:checked="false"
+            android:onClick="chbox2"
+            android:text="R"
+            tools:ignore="OnClick" />
+
+        <CheckBox
+            android:id="@+id/ch_fasetp1"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox2"
+            android:text="T" />
+
+        <CheckBox
+            android:id="@+id/ch_fasesp1"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox2"
+            android:text="S" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="382dp">
+
+        <TextView
+            android:id="@+id/tconexion2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Conx 2"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibrefase2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Fase"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreneutro2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Neutro"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreap2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Alpu"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/thilo2"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Secuencia"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="416dp">
+
+
+        <EditText
+            android:id="@+id/conexion2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/calibrefase2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibreneutro2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibrealpu2"
+            android:layout_width="92dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/ch_faserp2"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="2dp"
+            android:checked="false"
+            android:onClick="chbox3"
+            android:text="R"
+            tools:ignore="OnClick" />
+
+        <CheckBox
+            android:id="@+id/ch_fasetp2"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox3"
+            android:text="T" />
+
+        <CheckBox
+            android:id="@+id/ch_fasesp2"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox3"
+            android:text="S" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp">
+
+        <TextView
+            android:id="@+id/tconexion3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Conx 3"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibrefase3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Fase"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreneutro3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Neutro"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreap3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Alpu"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/thilo3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Secuencia"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="535dp">
+
+        <EditText
+            android:id="@+id/conexion3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/calibrefase3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibreneutro3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibrealpu3"
+            android:layout_width="88dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/ch_faserp3"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="2dp"
+            android:checked="false"
+            android:onClick="chbox4"
+            android:text="R"
+            tools:ignore="OnClick" />
+
+        <CheckBox
+            android:id="@+id/ch_fasetp3"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox4"
+            android:text="T" />
+
+        <CheckBox
+            android:id="@+id/ch_fasesp3"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox4"
+            android:text="S" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="228dp">
+
+        <TextView
+            android:id="@+id/tconexion4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Conx 4"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibrefase4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Fase"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreneutro4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Neutro"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tcalibreap4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Alpu"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/thilo4"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Secuencia"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="658dp">
+
+
+        <EditText
+            android:id="@+id/conexion4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/calibrefase4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibreneutro4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/calibrealpu4"
+            android:layout_width="91dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:entries="@array/cal_poste"
+            android:padding="1dp"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:id="@+id/ch_faserp4"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="2dp"
+            android:checked="false"
+            android:onClick="chbox5"
+            android:text="R"
+            tools:ignore="OnClick" />
+
+        <CheckBox
+            android:id="@+id/ch_fasetp4"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox5"
+            android:text="T" />
+
+        <CheckBox
+            android:id="@+id/ch_fasesp4"
+            android:layout_width="43dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="2dp"
+            android:checked="false"
+            android:onClick="chbox5"
+            android:text="S" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ca">
+        <item>"SELECCIONE"</item>
+        <item>CONCÉNTRICA</item>
+        <item>ABIERTA</item>
+    </string-array>
+    <string-array name="as">
+        <item>"SELECCIONE"</item>
+        <item>AÉREA</item>
+        <item>SUBTERRÁNEA</item>
+    </string-array>
+    <string-array name="mbt">
+        <item>"SELECCIONE"</item>
+        <item>MONOFÁSICO</item>
+        <item>BIFÁSICO</item>
+        <item>TRIFÁSICO</item>
+    </string-array>
+</resources>

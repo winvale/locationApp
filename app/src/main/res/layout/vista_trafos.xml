@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="583dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/lista" />
+
+        <TextView
+            android:id="@+id/tit_vistatrafos"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tit_pt"
+            android:layout_alignStart="@+id/tit_pt"
+            android:layout_marginBottom="-65dp"
+            android:text="Lista de Transformadores"
+            android:textAlignment="center"
+            android:textSize="23sp"
+            android:layout_alignLeft="@+id/tit_pt" />
+        <TextView
+            android:id="@+id/tit_pt"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="65dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp" />
+    </RelativeLayout>
+    <!-- En caso de lista vacía -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_trafo"
+        android:layout_width="585dp"
+        android:layout_height="690dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>

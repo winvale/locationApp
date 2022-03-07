@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposervicio">
+        <item>"SELECCIONE"</item>
+        <item value="R">RESIDENCIAL</item>
+        <item value="C">COMERCIAL</item>
+        <item value="I">INDUSTRIAL</item>
+        <item value="O">OFICIAL</item>
+        <item value="P">PROVISONAL</item>
+        <item value="SA">SERVICIO ASISTENCIAL</item>
+        <item value="AP">ALUMBRADO PÚBLICO</item>
+    </string-array>
+</resources>

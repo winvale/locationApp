@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipios">
+    <item value="Seleccione">"SELECCIONE"</item>
+    <item value="Mocoa">MOCOA</item>
+    <item value="Villagarzon">VILLAGARZON</item>
+    <item value="PTO_GUZMAN">PTO GUZMAN</item>
+    <item value="Piamonte">PIAMONTE</item>
+    <item value="Orito">ORITO</item>
+    </string-array>
+    <string-array name="tipousu">
+        <item value="Seleccione">"SELECCIONE"</item>
+        <item value="A">ADMINISTRADOR</item>
+        <item value="O">OPERADOR</item>
+    </string-array>
+    <string-array name="estausu">
+        <item value="Seleccione">"SELECCIONE"</item>
+        <item value="A">ACTIVO</item>
+        <item value="I">INACTIVO</item>
+    </string-array>
+
+
+
+</resources>

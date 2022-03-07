@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="propiedad">
+        <item value="SELECCIONE">"SELECCIONE"</item>
+        <item value="EEP">EEP</item>
+        <item value="USUARIO">USUARIO</item>
+        <item value="COMPARTIDA">COMPARTIDA</item>
+    </string-array>
+</resources>

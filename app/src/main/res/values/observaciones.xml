@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="obs_trafos">
+        <item value="NINGUNA">"NINGUNA"</item>
+        <item value="BAJANTE PARA CAMBIO">BAJANTE PARA CAMBIO</item>
+        <item value="ESTADO DPS IRREGULAR">ESTADO DPS IRREGULAR</item>
+        <item value="FILTRACION EN DPS">FILTRACION EN DPS</item>
+        <item value="SIN PUESTA A TIERRA">SIN PUESTA A TIERRA</item>
+        <item value="FILTRACION DE ACEITE EN TRANSFORMADOR">FILTRACION DE ACEITE EN TRANSFORMADOR</item>
+        <item value="AISLADORES AVERIADOS">AISLADORES AVERIADOS</item>
+        <item value="TRAFO NO EQUIPOTENCIADO">TRAFO NO EQUIPOTENCIADO</item>
+        <item value="BORNES SULFATADOS">BORNES SULFATADOS</item>
+        <item value="LEVANTAMIENTO SOLO DE REDES MEDIA">LEVANTAMIENTO SOLO DE REDES MEDIA</item>
+        <item value="LEVANTAMIENTO SOLO DE REDES BAJA">LEVANTAMIENTO SOLO DE REDES BAJA</item>
+    </string-array>
+
+    <string-array name="obs_postes">
+        <item value="NINGUNA">"NINGUNA"</item>
+        <item value="RETENIDA AVERIADA">RETENIDA AVERIADA</item>
+        <item value="NO TIENE TERMINAL DE PUESTA A TIERRA">NO TIENE TERMINAL DE PUESTA A TIERRA</item>
+        <item value="POSTE AVERIADO">POSTE AVERIADO</item>
+        <item value="AISLADORES AVERIADOS">AISLADORES AVERIADOS</item>
+        <item value="REDES EMPALMADAS">REDES EMPALMADAS</item>
+    </string-array>
+
+    <string-array name="obs_acometidas">
+        <item value="NINGUNA">"NINGUNA"</item>
+        <item value="SIN CONECTORES">SIN CONECTORES</item>
+        <item value="CONEXION DIRECTA">CONEXION DIRECTA</item>
+        <item value="MEDIDOR INTERNO">MEDIDOR INTERNO</item>
+        <item value="MEDIDOR SIN POLO A TIERRA">MEDIDOR SIN POLO A TIERRA</item>
+        <item value="MEDIDOR SIN TAPA BORNERA">MEDIDOR INTERNOMEDIDOR SIN TAPA BORNERA</item>
+        <item value="MEDIDOR SIN SELLO">MEDIDOR SIN SELLO</item>
+        <item value="MEDIDOR DAÑADO">MEDIDOR DAÑADO</item>
+        <item value="MEDIDOR BORROSO">MEDIDOR BORROSO</item>
+        <item value="MANTENIMIENTO ACOMETIDA">MANTENIMIENTO ACOMETIDA</item>
+        <item value="POSIBLE FRAUDE">POSIBLE FRAUDE</item>
+    </string-array>
+
+
+
+</resources>

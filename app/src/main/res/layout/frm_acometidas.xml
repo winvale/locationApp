@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frm_nodos">
+
+    <TextView
+        android:id="@+id/observa_trafo"
+        android:layout_width="547dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="650dp"
+        android:background="@color/colorPrimary"
+        android:text="Observación"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <com.redylab.redylabsirr.MultiSelectionSpinner
+        android:id="@+id/obseraco"
+        android:layout_width="550sp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="690dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="33sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tdirec"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Dirección"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/sector"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Sector"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="242dp">
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/direccionaco"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:descendantFocusability="afterDescendants"
+            android:gravity="center_horizontal"
+            android:prompt="@string/seleccione_un_barrio"
+            android:spinnerMode="dialog"
+            android:padding="19dp"
+            android:textAlignment="center"
+            android:visibility="visible"/>
+
+        <Spinner
+            android:id="@+id/ssector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-10dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tiposervicio"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="33sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="297dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tacometida"
+            android:layout_width="544dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Tipo de Acometida"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="336dp">
+        <Spinner
+            android:id="@+id/ca"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="25dp"
+            android:entries="@array/ca"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginTop="-10dp"
+            android:padding="18dp"
+            android:visibility="visible"
+            android:descendantFocusability="afterDescendants"></Spinner>
+
+        <Spinner
+            android:id="@+id/as"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-10dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/as"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:textAlignment="center"
+            android:visibility="visible"></Spinner>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="570dp"
+        android:layout_height="77dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="Código Poste"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/codigoposte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="PM0007001"
+                android:textColor="@color/drakgray"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="62dp"
+            android:layout_height="59dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/casa"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="Registro de Acometida"
+            android:textColor="@color/drakgray"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/operario"
+        android:layout_width="249dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginStart="44dp"
+        android:gravity="center"
+        android:text="Operario"
+        android:textColor="@color/drakgray"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/cod_acometida"
+        android:layout_width="249dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginStart="44dp"
+        android:gravity="center"
+        android:text="Operario"
+        android:textColor="@color/drakgray"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnGuardaracometida"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        android:elevation="2dp"
+        android:text="GUARDAR"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="810dp"
+        android:layout_alignParentLeft="true">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="41dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp">
+
+        <TextView
+            android:id="@+id/tcontador"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="# Contador"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/tmarca"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Marca"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            tools:ignore="RtlCompat" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp">
+
+        <EditText
+            android:id="@+id/contador"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="25dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+        <EditText
+            android:id="@+id/marcacon"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="21dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp">
+
+        <TextView
+            android:layout_width="540dp"
+            android:layout_height="10dp"
+            android:layout_below="@+id/idImagen"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="342dp">
+
+        <CheckBox
+            android:id="@+id/ch_faser"
+            android:layout_width="50dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:onClick="chbox"
+            android:text="R"
+            android:checked="false"
+            tools:ignore="OnClick" />
+
+        <CheckBox
+            android:id="@+id/ch_faset"
+            android:layout_width="50dp"
+            android:layout_height="52dp"
+            android:layout_marginRight="25dp"
+            android:onClick="chbox"
+            android:text="T"
+            android:checked="false"
+             />
+
+        <CheckBox
+            android:id="@+id/ch_fases"
+            android:layout_width="50dp"
+            android:layout_height="52dp"
+            android:onClick="chbox"
+            android:layout_marginRight="50dp"
+            android:text="S"
+            android:checked="false"/>
+
+        <Spinner
+            android:id="@+id/calibreacometida"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:padding="18dp"
+            android:entries="@array/cal_acometida"
+            android:textAlignment="center"
+            android:visibility="visible"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="390dp">
+
+        <TextView
+            android:id="@+id/tfase"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="42dp"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Fases Acometida"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tcaliacom"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Calibre Acometida [AWG] "
+            android:textAlignment="center"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="245dp">
+
+        <Spinner
+            android:id="@+id/tblromed"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-7dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/tab_medidores"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:textAlignment="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fasesTablero">
+
+            <CheckBox
+                android:id="@+id/ch_fasert"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:text="R"
+                android:onClick="chbox"
+                android:checked="false"/>
+
+            <CheckBox
+                android:id="@+id/ch_fasett"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="20dp"
+                android:text="T"
+                android:onClick="chbox"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/ch_fasest"
+                android:layout_width="50dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="30dp"
+                android:text="S"
+                android:onClick="chbox"
+                android:checked="false" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="295dp">
+
+        <TextView
+            android:id="@+id/ttablero"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="33dp"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorPrimary"
+            android:text=" Tablero de Medidores"
+            android:textAlignment="center"
+            android:textSize="23sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulofasestablero">
+
+            <TextView
+                android:id="@+id/tfasetbl"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Fases Tablero"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="570sp"
+        android:layout_height="41dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="408dp">
+
+        <Spinner
+            android:id="@+id/mbt"
+            android:layout_width="521dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="-18dp"
+            android:descendantFocusability="afterDescendants"
+            android:entries="@array/mbt"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:textAlignment="center"></Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="725dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/textLongluma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Longitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/txtLona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="755dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/textLatilum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Latitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/textLata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="785dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/textAltilum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Altitud:"
+            android:textColor="@color/drakgray" />
+
+        <TextView
+            android:id="@+id/textAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/drakgray" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
